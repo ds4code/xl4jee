@@ -1,53 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>XLR8JEE</title>
-  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <link rel="stylesheet" media="screen" type="text/css" href="style.css">
-  <link rel="icon" type="image/png" href="image/logo.jpg"/>
+    <meta charset="utf-8">
+    <title>XLR8JEE</title>
+    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="image/logo.jpg"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link rel="stylesheet" media="screen" type="text/css" href="style.css">
 </head>
 
 <body>
-<div id='particles-js'>
-  <div>
-      <div  class='navigatonbar'>
-          <div class="logo">
-            <img src="image/logo.jpg" >
+    <nav class ="navbar navbar-expand-md " >
+        <div class ="container-fluid">
+          <a  class ="navbar-brand"  href="#"><img src="image/logo.jpg" class="img1" ></a>
+          <button class="navbar-toggler" type="button" 
+                  data-toggle="collapse" data-target="#navbarResponsive">
+            <span class="navbar-toggler-icon"><p>=</p></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive"> 
+            <ul class ="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">FAQ</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#connect">CONNECT</a>
+              </li>
+            </ul>
           </div>
-            <u1 class='main-nav'>
-              <li class="active"><a href="" >HOME </a></li>
-              <li><a href="">SERVICES </a></li>
-              <li><a href="">ABOUT </a></li>
-              <li><a href="">NEWS </a></li>
-              <li><a href="">FAQ </a></li>
-              <li><a href="">CONNECT</a></li>
-            </u1>
-        </div> 
-        <!--navigation bar ends here-->
-        
-  </div>  
-  
-  
-</div>
-<!--navigation bar ends here-->
-<div>
-    <div class='ready'>
-        <h1>ARE YOU READY TO DIVE IN ?</h1>
-        <div class="button">
-          <a hef="" class="btn btn-one">WATCH VIDEO</a>
-          <a hef="" class="btn btn-two">EXPLORE MORE</a>
         </div>
-      </div>
-  
+      </nav>
+    <!-- Navigation Bar ending -->
+<div id='particles-js'>
+    <!-- <div>
+        <div class='ready'>
+            <h1>ARE YOU READY TO DIVE IN ?</h1>
+            <div class="button">
+              <a hef="" class="btn btn-one">WATCH VIDEO</a>
+              <a hef="" class="btn btn-two">EXPLORE MORE</a>
+            </div>
+          </div> -->
+      <!--  -->
+      <div class="carousel-item active">
+          <!-- <img src="image/image.jpg"> -->
+          <div class="carousel-caption">
+            <h1 class="display-2">ARE YOU READY TO DIVE IN?</h1>
+            <p></p>
+            <p></p>
+            <button type ="button" class="btn btn-outline-light btn-lg">GET STARTED</button>
+            <button type ="button" class="btn btn-primary btn-lg" href="#fun">EXPLORE MORE</button>
+          </div>
+        </div>
+    </div>
+    
 </div>
 
 <!--particles-js-->
 <script type="text/javascript" src="js/particles.min.js"></script>
 <script type="text/javascript" src="js/app.js"></script>
-
 
 
 </body>
