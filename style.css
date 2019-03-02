@@ -34,7 +34,6 @@ html,body{
   font-family:"Roboto";
   color: white;
 }
-
 .navbar-toggler{
   color: white;
   border: 1px solid yellow;
@@ -79,7 +78,7 @@ html,body{
   padding: 1rem;
   border-radius: 0;
 }
-.welcom{
+.welcome{
   width:75%;
   margin: 0 auto;
   padding-top: 2rem;
@@ -102,15 +101,6 @@ html,body{
 .fa-code,.fa-css3,.fa-bold{
   font-size: 4em;
   margin:1rem;
-}
-.fun{
-  width: 100%;
-  margin-bottom: 2rem;
-  padding: 10px;
-  background-color: yellow;
-}
-.gif{
-  max-width: 100%;
 }
 .card-text{
   color:black;
@@ -141,7 +131,7 @@ html,body{
   color:#d5d5d5;
 }
 footer{
-  background-color: #3f3f3f;
+  background-color: #290769;
   color: #d5d5d5;
   padding-top: 2rem;
 }
@@ -152,7 +142,7 @@ hr.light{
   margin-bottom: 1rem;
 }
 footer a{
-  color: #d5d5d5;
+  color: #400eb4;
 }
 hr.light-100{
   border-top: 1px solid #d5d5d5;
